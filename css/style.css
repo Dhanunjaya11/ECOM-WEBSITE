@@ -664,17 +664,6 @@ font-weight: bold;
     border-radius: 4px;
     cursor: pointer;
 }
-/* .table .dustbin img{
-    height: 20px;
-}
-.table .dustbin{
-    background: none;
-    border: none;
-    cursor: pointer;
-} */
-/* .table .dustbin:hover{
-    background-color: red;
-} */
 .fa-trash{
     cursor: pointer;
 }
