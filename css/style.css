@@ -25,12 +25,16 @@ body{
     font-weight: bold;
     color: black;
 }
+.nav-bar ul li a:hover{
+    color: rgb(56, 179, 56);
+}
+
 .header-part .icons{
     margin-top: 15px;
     margin-left: 200px;
 }
 .home p{
-    background-color: grey;
+    /* background-color: grey; */
     height: 50px;
     width: 100%;
     word-spacing: 10px;
@@ -38,17 +42,25 @@ body{
     text-align: left;
     padding-left: 30px;
  } 
-.shop1 {
-    background-color: grey;
+ .shop3{
     height: 50px;
     width: 100%;
     word-spacing: 10px;
     line-height: 50px;
     text-align: left;
     padding-left: 30px;
+ }
+.shop1 {
+    /* background-color: grey; */
+    height: 50px;
+    width: 100%;
+    word-spacing: 10px;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 80px;
 }
 .shop2{
-    background-color: grey;
+    /* background-color: grey; */
     height: 50px;
     width: 100%;
     word-spacing: 10px;
@@ -143,6 +155,7 @@ input[type="email"]{
 .sub:hover{
     background-color: rgb(0, 128, 81);
 }
+
 .footer-discription .address{
     margin-top: 50px;
     margin-left: 80px;
@@ -245,6 +258,8 @@ footer .design{
 }
 
 
+
+
 /* shop page */
 
 main .shop{
@@ -272,7 +287,7 @@ main .carts{
 }
 main .carts .cart{
     width: 315px;
-    border: 1px solid #EAF0F1;
+    border: 1px solid rgba(0, 0, 0, 0.212);
     border-radius: 10px;
 }
 main .carts .cart .cart-header{
@@ -515,6 +530,8 @@ main .sliders button:hover{
     border-radius: 4px;
 }
 
+
+
 /* myaccount page */
 main .home{
     background-color: rgba(128, 128, 128, 0.182);
@@ -545,7 +562,7 @@ main .account .dashboard button i{
     margin-right: 10px;
 }
 main .account .dashboard button:hover{
-    background-color: rgba(19, 67, 19, 0.71);
+    background-color: rgb(32, 106, 32);
     color: white;
 }
 main .account .discription .h4{
@@ -779,34 +796,34 @@ main .promotions{
     margin-left: 85px;
     margin-bottom: 50px;
 }
-main .promotions .hat-girl-image img{
+main .promotions .hatimage img{
     height: 350px;
     width: 750px;
     margin-left: 69px;
     margin-top: -30px;
 }
-main .promotions .fashion h5{
+main .promotions .fashion-trending h5{
     color: rgb(32,170,178);
     margin-bottom: 17px;
 }
-main .promotions .fashion h2{
+main .promotions .fashion-trending h2{
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 10px;
     font-size: 35px;
 }
-main .promotions .fashion{
+main .promotions .fashion-trending{
     width: 500px;
 }
-main .promotions .fashion h1{
+main .promotions .fashion-trending h1{
     font-size: 40px;
     display: inline;
     color: rgb(81, 178, 32);
 }
-main .promotions .fashion p{
+main .promotions .fashion-trending p{
     margin-top: 10px;
 }
-main .promotions .fashion .shop-now{
+main .promotions .fashion-trending .shop-now{
     padding: 10px;
     width: 100px;
     color: white;
@@ -2214,4 +2231,421 @@ main .carts .cart .cart-header .cart4{
 }
 main {
     margin-bottom: 60px;
+}
+/* WishList CSS Code */
+main .wishlist{
+    background-color: rgba(128, 128, 128, 0.182);
+    height: 60px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 65px;
+    margin-bottom: 60px;
+}
+main .headings{
+    display: flex;
+    margin-left: 135px;
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main .headings .heading2{
+    margin-left: 300px;
+}
+main .headings .heading3{
+    margin-left: 200px;
+}
+main .headings .heading4{
+    margin-left: 120px;
+}
+main .headings .heading5{
+    margin-left: 150px;
+}
+main .headings .heading6{
+    margin-left: 150px;
+}
+main .hr{
+    margin-top: -10px;
+    margin-left: 80px;
+    margin-right: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.111);
+}
+main .row-2{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+main .row-2 .row-product{
+    height: 80px;
+}
+main .row-2 .row-discription{
+    margin-left: 165px;
+    font-size: 14px;
+}
+main .row-2 .row-discription .discription1{
+    color: #18856b;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+main .row-2 .row-discription .discription2{
+    margin-top: 5px;
+    margin-left: 8px;
+}
+main .row-2 .dollars{
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: 90px;
+}
+main .row-2 h5{
+    margin-left: 146px;
+    color: #218F76;
+    margin-top: 35px;
+    font-family:sans-serif;
+}
+main .row-2 .row-button{
+    margin-top: 25px;
+    margin-left: 140px;
+    height: 35px;
+    width: 120px;
+    border: none;
+    color: white;
+    background-color: #218F76;
+    border-radius: 4px;
+    cursor: pointer;
+}
+main .row-2 .dustbin-image{
+    height: 20px;
+    margin-left: 133px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+main .row-2 .dustbin-image:hover{
+    color: red;
+}
+main .row-2 .row-discription .row-discription1{
+    color: #18856b;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+main .row-2 .row-dollars{
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: 107px;
+}
+main .row-2 .row-discription .row2-discription1{
+    color:#0e9b7a;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    margin-left: -7px;
+}
+main .row-2 .row2-dollars{
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: 73px;
+}
+main{
+    margin-bottom: 80px;
+}
+/* Cart CSS Code */
+main .wishlist{
+    background-color: rgba(128, 128, 128, 0.182);
+    height: 60px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 65px;
+    margin-bottom: 60px;
+}
+main .headings{
+    display: flex;
+    margin-left: 135px;
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main .headings .heading2{
+    margin-left: 300px;
+}
+main .headings .heading3{
+    margin-left: 200px;
+}
+main .headings .heading4{
+    margin-left: 120px;
+}
+main .headings .heading5{
+    margin-left: 150px;
+}
+main .headings .heading6{
+    margin-left: 150px;
+}
+main .hr{
+    margin-top: -10px;
+    margin-left: 80px;
+    margin-right: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.111);
+}
+main .row-2{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+main .row-2 .row-product{
+    height: 80px;
+}
+main .row-2 .row-discription{
+    margin-left: 165px;
+    font-size: 14px;
+}
+main .row-2 .row-discription .discription1{
+    color: #18856b;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+main .row-2 .row-discription .discription2{
+    margin-top: 5px;
+    margin-left: 8px;
+}
+main .row-2 .dollars{
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: 90px;
+}
+main .row-2 h5{
+    margin-left: 146px;
+    color: #218F76;
+    margin-top: 35px;
+    font-family:sans-serif;
+}
+main .row-2 .row-button{
+    margin-top: 25px;
+    margin-left: 140px;
+    height: 35px;
+    width: 120px;
+    border: none;
+    color: white;
+    background-color: #218F76;
+    border-radius: 4px;
+    cursor: pointer;
+}
+main .row-2 .dustbin-photo{
+    height: 20px;
+    margin-left: 186px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+main .row-2 .row-discription .row-discription1{
+    color: #18856b;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+main .row-2 .row-dollars{
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: 107px;
+}
+main .row-2 .row-discription .row2-discription1{
+    color:#0e9b7a;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    margin-left: -7px;
+}
+main .row-2 .row2-dollars{
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: 73px;
+}
+input[type="number"]{
+    height: 25px;
+    padding-left: 15px;
+    width: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 5px;
+}
+main .row-2 .number1{
+    margin-top: 28px;
+    margin-left: 125px;
+}
+main .row-2 .rupees1{
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: 162px;
+}
+main .row-2 .number2{
+    margin-top: 28px;
+    margin-left: 125px;
+}
+main .row-2 .rupees2{
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: 162px;
+}
+main .row-2 .number3{
+    margin-top: 28px;
+    margin-left: 125px;
+}
+main .row-2 .rupees3{
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: 162px;
+}
+main .update-continue{
+    margin-top: 55px;
+    margin-left: 1100px;
+    margin-bottom: 50px;
+}
+main .update-continue .shuffle{
+    padding: 13px;
+    width: 140px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #218F76;
+    cursor: pointer;
+}
+main .update-continue .shuffle i{
+    margin-right: 7px;
+}
+main .update-continue .continue-shopping{
+    padding: 13px;
+    width: 170px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-left: 5px;
+    background-color: #218F76;
+    cursor: pointer;
+}
+main .update-continue .continue-shopping i{
+    margin-right: 7px;
+}
+main .line1{
+    width: 650px;
+    margin-left: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+}
+main .fa-fingerprint{
+    margin-left: 750px;
+    position: relative;
+    top: -20px;
+    font-size: 29px;
+    color:rgba(0, 0, 0, 0.407);
+}
+main .line2{
+    position: relative;
+    top: -45px;
+    width: 620px;
+    margin-right: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+}
+main .shipping-details{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 60px;
+}
+main .calculate{
+    width: 50%;
+}
+main .calculate .state{
+    display: block;
+    width: 92%;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+    border-radius: 4px;
+}
+main .calculate .city{
+    width: 43%;
+    margin-top: 15px;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+    border-radius: 4px;
+}
+main .calculate .code{
+    width: 43%;
+    margin-top: 15px;
+    margin-left: 12px;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+    border-radius: 4px;
+}
+main .calculate .update-button{
+    margin-top: 15px;
+    padding: 12px;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #218F76;
+    cursor: pointer;
+}
+main .calculate .update-button i{
+    margin-right: 7px;
+}
+main .calculate .apply-coupon{
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+main .calculate .coupon{
+    width: 43%;
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.118);
+    border-radius: 4px;
+}
+main .calculate .apply-button{
+    margin-left: 10px;
+    padding: 12px;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #218F76;
+    cursor: pointer;
+}
+main .calculate .apply-button i{
+    transform: rotate(405deg);
+    margin-right: 5px;
+}
+main .cart-total{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 5px;
+    width: 620px;
+    height: 250px;
+    margin-top: 20px;
+}
+main .cart-total h4{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+main .cart-total table{
+    width: 570px;
+    margin-left: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.145);
+}
+main .cart-total table .row-data{
+    color: rgba(0, 0, 0, 0.675);
+}
+main .cart-total table .price-tag{
+    color: #218F76;
+    font-weight: bold;
+}
+main .cart-total .proceed-button{
+    margin-top: 15px;
+    margin-left: 25px;
+    padding: 12px;
+    width: 180px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #218F76;
+    cursor: pointer;
+}
+main .cart-total .proceed-button i{
+    margin-right: 7px;
 }
